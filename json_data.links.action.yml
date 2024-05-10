@@ -1,0 +1,5 @@
+json_data.add_form:
+  title: 'Add json data'
+  route_name: entity.json_data.add_form
+  appears_on:
+    - entity.json_data.collection

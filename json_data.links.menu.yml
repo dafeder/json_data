@@ -1,0 +1,5 @@
+entity.json_data.collection:
+  title: 'JSON Datas'
+  description: 'List of json datas.'
+  route_name: entity.json_data.collection
+  parent: system.admin_content

@@ -1,0 +1,10 @@
+entity.json_data.edit_form:
+  route_name: entity.json_data.edit_form
+  group: json_data
+  title: 'Edit'
+
+entity.json_data.delete_form:
+  route_name: entity.json_data.delete_form
+  group: json_data
+  title: 'Delete'
+  weight: 10

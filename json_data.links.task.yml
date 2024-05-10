@@ -1,0 +1,18 @@
+entity.json_data.view:
+  title: 'View'
+  route_name: entity.json_data.canonical
+  base_route: entity.json_data.canonical
+entity.json_data.edit_form:
+  title: 'Edit'
+  route_name: entity.json_data.edit_form
+  base_route: entity.json_data.canonical
+entity.json_data.delete_form:
+  title: 'Delete'
+  route_name: entity.json_data.delete_form
+  base_route: entity.json_data.canonical
+  weight: 10
+entity.json_data.collection:
+  title: 'JSON Datas'
+  route_name: entity.json_data.collection
+  base_route: system.admin_content
+  weight: 10

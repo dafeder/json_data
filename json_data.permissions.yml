@@ -1,0 +1,17 @@
+administer json_data:
+  title: 'Administer json datas'
+  restrict access: true
+view json_data:
+  title: 'View json data'
+edit json_data:
+  title: 'Edit json data'
+delete json_data:
+  title: 'Delete json data'
+create json_data:
+  title: 'Create json data'
+view json_data revision:
+  title: 'View json data revision'
+revert json_data revision:
+  title: 'Revert json data revision'
+delete json_data revision:
+  title: 'Delete json data revision'

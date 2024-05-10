@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - json_data
+id: json_data_save_action
+label: 'Save json datas'
+type: json_data
+plugin: entity:save_action:json_data
+configuration: {  }
