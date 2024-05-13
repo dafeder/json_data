@@ -117,6 +117,18 @@ final class JsonData extends RevisionableContentEntityBase implements JsonDataIn
       ])
       ->setDisplayConfigurable('view', TRUE);
 
+    $fields['json_data'] = BaseFieldDefinition::create('json')
+      ->setRevisionable(TRUE)
+      ->setTranslatable(TRUE)
+      ->setLabel(t("JSON Data"))
+      ->setRequired(TRUE)
+      ->setSetting('size', 16777216)
+      ->setDisplayOptions('form', [
+        'type' => 'json_textarea',
+      ])
+      ->setDisplayConfigurable('form', TRUE)
+      ->setDisplayConfigurable('view', TRUE);
+
     $fields['status'] = BaseFieldDefinition::create('boolean')
       ->setRevisionable(TRUE)
       ->setLabel(t('Status'))
